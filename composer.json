@@ -1,0 +1,25 @@
+{
+    "name": "lee-to/laravel-package-command",
+    "description": "Package development command",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Danil Shutsky",
+            "email": "info@cutcode.ru",
+            "homepage": "https://github.com/lee-to"
+        }
+    ],
+    "require": {
+        "php": "^8.0|^8.1|^8.2"
+    },
+    "require-dev": {
+        "fakerphp/faker": "^1.9.2",
+        "phpunit/phpunit": "^9.5.8",
+        "mockery/mockery": "^1.4.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "CutCode\\PackageCommand\\": "src/"
+        }
+    }
+}
