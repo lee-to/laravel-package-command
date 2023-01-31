@@ -2,6 +2,7 @@
     "name": "lee-to/laravel-package-command",
     "description": "Package development command",
     "minimum-stability": "stable",
+    "license": "MIT",
     "authors": [
         {
             "name": "Danil Shutsky",
