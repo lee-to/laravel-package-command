@@ -4,6 +4,10 @@ Applies to console commands to install a package
 
 It is convenient if your package adds stubs during installation, service providers
 
+### Installation
+```shell
+composer require lee-to/laravel-package-command
+```
 ### Usage
 
 - Change `Illuminate\Console\Command ` to `Leeto\PackageCommand\Command`
