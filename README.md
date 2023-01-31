@@ -11,4 +11,4 @@ composer require lee-to/laravel-package-command
 ### Usage
 
 - Change `Illuminate\Console\Command ` to `Leeto\PackageCommand\Command`
-- Set `protected string $stubsDir = 'Path to stubs dir''`
+- Set `protected string $stubsDir = 'Path to stubs dir'`
