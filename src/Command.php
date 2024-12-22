@@ -123,9 +123,9 @@ class Command extends BaseCommand
             ->value();
     }
 
-    protected function makeDir(string $path = ''): void
+    protected function makeDir(string $path): void
     {
-        (new Filesystem)->makeDirectory($path, 0755, true, true);
+        (new Filesystem)->ensureDirectoryExists($path);
     }
 
     protected function qualifyModel(string $model): array|string
